@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Google Homepage</title>
+  <style>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" type="text/css">
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #fff;
+    font-size: small;
+    color: #000000;
+  }
+  .search-box {
+    display: flex;
+    flex: 1;
+    padding: 5px 8px 0px 16px;
+    padding-left: 14px;
+  }
+  img {
+    padding-top: 109px;
+  }
+  center {
+    display: block;
+    text-align: -webkit-center !important;
+  }
+  .outer-box{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    width: 482px;
+    margin: 0 auto;
+  }
+  .search-box1 {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  .search-field {
+    background-color: transparent;
+    padding: 0;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    font-size: 16px;
+    line-height: 34px;
+    height: 34px !important;
+    padding: 0px 8px 0px 13px;
+    margin-top: 15px;
+  }
+  button {
+    height: 36px;
+    width: 150px;
+    background-color: #f2f2f2;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  button:hover {
+    border: 0.5px solid #000000;
+  }
+  .button {
+    display: block;
+    text-align: -webkit-center;
+  }
+  input {
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+  }
+  input:hover {
+    border-color: transparent;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  }
+  .navbar {
+    background: #fff;
+    border: none;
+    height: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+  .navbutton1 {
+    display: flex;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    font-size: small;
+    background: transparent;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    float: right;
+    padding-top: 0;
+  }
+  .navbutton2 {
+    display: flex;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    font-size: small;
+    background: transparent;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    float: right;
+    padding: 0 10px 0 0;
+  }
+   .listleft {
+    list-style-type: none;
+    background-color: #f1f1f1;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    padding: 14px;
+    margin-block-end: unset !important;
+  }
+  .listright {
+   list-style-type: none;
+   background-color: #f1f1f1;
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 13px;
+   position: fixed;
+   display: block;
+   bottom: 0;
+   right: 0;
+   width: 50%;
+   padding: 14px;
+   margin-block-end: unset !important;
+   text-align: right;
+ }
+  li {
+    display: inline;
+    padding: 0 5px 0 5px;
+  }
+  a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 0;
+    margin: 0;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbutton1">
+      <a href="#">Images</a>
+    </div>
+    <div class="navbutton2">
+      <a href="#">Gmail</a>
+    </div>
+  </div>
+  <center>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" height="92" width="272">
+  </center>
+  <div class="outer-box">
+    <div class="search-box">
+      <div class="search-box1">
+          <input class="search-field" type="text" name="search bar" value="">
+      </div>
+    </div>
+  </div>
+  <div class="button">
+    <button type="submit" name="Google Search">Google Search</button>
+    <button type="submit" name="Feeling lucky">I'm Feeling Lucky</button>
+  </div>
+  <footer>
+  <ul class="listleft">
+    <li>Advertising</li>
+    <li>Business</li>
+    <li>How Search Works</li>
+  </ul>
+  <ul class="listright">
+    <li>Privacy</li>
+    <li>Terms</li>
+    <li>Settings</li>
+  </ul>
+  </footer>
+</body>
+</html>
